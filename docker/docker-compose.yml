@@ -19,4 +19,4 @@ services:
       - '../.:/srv/jekyll'
     ports:
       - 4000:4000 # (localhost port) => (docker port)
-    command: sh docker/docker-compose-new.sh --new
+    command: sh docker/docker-compose.sh --new

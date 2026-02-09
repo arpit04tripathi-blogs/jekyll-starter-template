@@ -24,10 +24,7 @@ This repo is a template to create more repos for jekyll based repo.
 8. `_config.yml`
     1. update `baseurl` as `/my_repo_name`
     2. uncomment `exclude:` and add below yml section to ignore files for creating _site
-9. Delete files
-    1. `scripts/jekyll-new.sh`
-    2. `setup.md`
-    3. `docker/docker-compose-new.sh` and `docker/docker-compose-new.yml`
+9. Delete files - `setup.md`
 
 ```yml
 # ignore files for creating _site
